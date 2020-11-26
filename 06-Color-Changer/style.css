@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#change-btn {
+  padding: 1rem;
+  border-radius: 5px;
+  border: 2px solid rgb(145, 185, 65);
+  background-color: yellowgreen;
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+}
+
+#change-btn:hover {
+  background-color: rgb(141, 184, 57);
+}
+#change-btn:focus {
+  outline: none !important;
+}

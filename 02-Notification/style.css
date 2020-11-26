@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.click-btn {
+  padding: 1rem;
+  font-size: large;
+  border-radius: 5%;
+  background-color: greenyellow;
+  border: none;
+  color: grey;
+}
+
+.container {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.toast {
+  background-color: yellowgreen;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 5%;
+}
